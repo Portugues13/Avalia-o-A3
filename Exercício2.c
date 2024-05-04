@@ -1,0 +1,32 @@
+
+#include <stdio.h>
+
+#include <stdio.h>
+
+int main() {
+    int A1, A2, A3;
+    int tempo1, tempo2, tempo3, min_tempo;
+
+    
+    printf("Digite o numero de funcionarios no primeiro andar: ");
+    scanf("%d", &A1);
+    printf("Digite o numero de funcionarios no segundo andar: ");
+    scanf("%d", &A2);
+    printf("Digite o numero de funcionarios no terceiro andar: ");
+    scanf("%d", &A3);
+
+    
+    tempo1 = A2 * 2 + A3 * 4;
+    tempo2 = A1 * 2 + A3 * 2;
+    tempo3 = A1 * 4 + A2 * 2;
+
+    
+    min_tempo = tempo1;
+    if (tempo2 < min_tempo) min_tempo = tempo2;
+    if (tempo3 < min_tempo) min_tempo = tempo3;
+// Criar tres Algoritmo que recebe tres números e impremi o numero par ao copilot
+  
+    printf("O tempo minimo e de : %d\n", min_tempo);
+
+    return 0;
+}

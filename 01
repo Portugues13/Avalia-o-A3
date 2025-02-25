@@ -1,0 +1,14 @@
+# Função principal
+def calcular_area_retangulo():
+    # Ler as dimensões do retângulo
+    b = float(input("Digite a base do retângulo: "))
+    h = float(input("Digite a altura do retângulo: "))
+    
+    # Calcular a área
+    area = b * h
+    
+    # Exibir a área
+    print(f"A área do retângulo é: {area}")
+
+# Chamar a função
+calcular_area_retangulo()
